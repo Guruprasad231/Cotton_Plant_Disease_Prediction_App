@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cotton Disease Predictor</string>
+    <string name="buttonSelectPhoto">Select Photo</string>
+    <string name="buttonTakePhoto">Start Camera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Select Image and click on Detect</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <string name="textview">COTTON CARE</string>
+    <string name="trading_factor">Trading Factor</string>
+    <string name="predict_cotton_disease">Predict Cotton Disease</string>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDFF45"
+    tools:context=".Cure">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Management of Cotton Diseases"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="1.Bacterial blight"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:padding="8dp"
+                android:src="@drawable/bb1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                android:text="Price :
+251 Rs Per Bag\n
+Quantity :
+1 Kg\n
+Country of Origin:
+India"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:text="Description\nIndofil M - 45 Fungicide contains Mancozeb is a board spectrum, protectant and contact fungicide popularly known as KING OF FUNGICIDES.
+It is effective against widest range of disease caused by fungal pathogen in various crops like Paddy, Potato, Tomato, Chilies, Grapes, Apple as well as other fruits, vegetable, cereals and pulses.\n\nBecause of multisite activity, there has been no reported resistance development to Mancozeb so for and performing well even after more than 50 year of its commercial uses.\n\nThis product performs extremely well when used in preventive spray program at 7 to 10 days interval. Besides disease control, it provides Manganese and zinc nutrition to the crop."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="2. Curl Virus"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:padding="8dp"
+                android:src="@drawable/cv2" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" Price :
+403 Rs Per Bottle\n
+Quantity :
+1 litre\n
+Country of Origin:
+India"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:text="VIROZ is a bio-organic complex with an herbal base to stimulate plant growth with vigor and strength. VIROZ exhibits dual Property. It has its own insecticide action and it also fights the microorganism.
+Thus the viral infection can be controlled effectively. Hence the crop shows healthy and vigorous growth.\n\n
+It is effective against widest range of disease caused by fungal pathogen in various crops like Tomato, Chilly, Papaya, Brinjal, Tobacco, Okra, Banana, Bottle gourd, Bitter gourd etc.\n\n
+3 ml/liter water by spraying. Spray every 7 -10 days after transplantation. Also add, micronutrients and insecticides for controlling sucking pests along.\n\n
+Use certified disease free seeds. Ensure weed free field and surroundings. Use resistant or tolerant cultivar. Do not plant cotton crop near tomato and other crops susceptible to whiteflies."
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="3. Fusarium wilt"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView92"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                android:padding="8dp"
+                android:src="@drawable/fw3" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" Price :
+731 Rs Per Bottle\n
+Quantity :
+1 litre\n
+Country of Origin:
+India"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:text="Wilt special works through the phloem vessels which translocate from the leaf to the place of infection can only controlled Wilt, because the xylem pipe are absolutely rotten or chocked.\n\n
+Improves the immune system and Lateral root system to further strengthen the Roots. Reduces the multiplication of the pathogen particles through various phases.\n\n
+No Chemical either in stabilizer or preservative is used.\n\n
+Curative:- 2 Sprays at 6-7 days intervals and then repeat the spray for every 10 days. Preventive:- Spray at every 10-15 Days. Dosage – Stop wilt 5 ML / Ltr of water + Rootex 5 ML / Ltr of water."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="4. Leaf Lesions"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:padding="8dp"
+                android:src="@drawable/ll4" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" Price :
+400 Rs per Kg\n
+Quantity :
+1 Kg\n
+Country of Origin:
+India"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:text="Description:\nBury infected crop residues and destroy volunteer plants and weed hosts and burn down fields after harvesting. Avoid planting succession crops close together.\n\n
+Maintain a balanced fertilization and proper irrigation to reduce plant stress.\n\n
+Spray Mancozeb or Copper oxychloride at 2kg/ha at the intimation of the disease. Two to three sprays may be given at 15 days interval.
+"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
